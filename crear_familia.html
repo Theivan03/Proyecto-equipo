@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio de proyectos</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css"
+    integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="d-flex flex-column min-vh-100" style="background-color: #ecf0f1">
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Buscar..."
+            aria-label="Buscar">
+        </form>
+
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="login.html" role="button">LOGIN</a>
+          <a class="btn btn-warning" href="index.html" role="button">SIGN OUT</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <form>
+        <div class="form-group col-lg-6">
+          <h4 class="py-4">Creación de Curso</h4>
+        </div>     
+          <div class="form-group col-lg-6">
+            <label for="family" for="family">Familia</label>
+            <input type="text" class="form-control" id="family" aria-describedby="emailHelp"
+              placeholder="Nombre de la familia a añadir">
+          </div>
+          <div class="form-group col-lg-6">
+            <label for="family" for="family">Nivel</label>
+            <br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="basica" id="basica" value="option1">
+              <label class="form-check-label" for="basica">Básica</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="medio" id="medio" value="option2">
+              <label class="form-check-label" for="medio">Medio</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="superior" id="superior" value="option3">
+              <label class="form-check-label" for="superior">Superior</label>
+            </div>
+          </div>
+          <div class="form-group col-lg-6">
+            <label for="curso">Curso</label>
+            <input type="text" class="form-control" id="curso" aria-describedby="curso" placeholder="Grado (DAW, DAM, ASIR)">
+          </div>
+        <br>
+        <div class="form-group py-2 col-lg-6">
+          <button type="submit" class="btn btn-primary">Añadir</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
